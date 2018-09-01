@@ -1,0 +1,40 @@
+{
+  "name": "kamu_28",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "~28.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^28.0.0",
+    "firebase": "^5.2.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "react-native-countdown-component": "^1.7.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-fullwidth-image": "^0.1.2",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-modal": "^6.4.0",
+    "react-native-swiper": "^1.5.13",
+    "react-navigation": "^2.3.1",
+    "react-navigation-material-bottom-tabs": "^0.3.0",
+    "react-navigation-transitions": "^1.0.4",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}

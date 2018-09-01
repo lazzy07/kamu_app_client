@@ -1,0 +1,21 @@
+"react-native": "~0.55.2",
+
+        let images = [], imageWidth=150, winWidth=Dimensions.get('window').width;
+        for(var i=0;i<Math.ceil(winWidth/imageWidth);i++){
+            images.push((
+                <Image key={i} source={require('../../images/backgrounds/pattern_light.png')} style={{
+                    width: imageWidth,
+                    height: imageWidth
+                }} />
+            ))
+        }
+
+        let views = [], imageHeight=150, winHeight=Dimensions.get('window').height;
+        for(var i=0;i<Math.ceil(winWidth/imageWidth);i++){
+            views.push((
+                <View key={i} style={{flex:1, flexDirection:'row'}}>
+            ))
+        }
+
+
+#e8232d
